@@ -1,0 +1,31 @@
+body{
+    margin: 7em;
+    font-family: 'Poppins', sans-serif;
+}
+.first-section{
+    display: flex;
+}
+.width{
+       width: 1fr;
+}
+#font-size1{
+    font-size: 3em;
+}
+#right-side {
+    margin-left: 15em;
+}
+.utton{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    background-image: pink;
+}
+.button{
+    text-decoration: none;
+    font-size: smaller;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3em;
+    background-color: rgb(248, 2, 117);
+    ba
+}
