@@ -41,17 +41,71 @@ nav a{
     color: white;
     padding: 10px 15px;
     border-radius: 3em;
-    background-color: rgb(248, 2, 117);
+    background-color: #E02C6D;
 }
 .fa-arrow-right{
     margin-left: 5px;
     font-size: smaller;
 }
+.collection-container h1{
+    text-align: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 7em;
+}
+.products .product img{
+    height: 250px;
+    width: 298px;
+}
+.product p{
+    color: gray;
+}
+.product{
+    border: 2px solid;
+    width: 18.5em;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-image-slice: 1;
+    background-image: linear-gradient(black);
+    border-radius: 1px;
+    
+}
+.fa-star{
+    font-size: .6em;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star{
+    color: #FB8200;
+}
+.fa-star-half-alt{
+    font-size: .6em;
+    color: #FB8200;
+}
+.rating{
+    display: flex;
+    align-items: center;
+}
+#see-more{
+    text-decoration: none;
+    color: #E02C6D;
+}
+#see-more-align{
+    text-align: right;
+    margin-right: 7em;
+    margin-bottom: 7em;
+}
 .login-container{
     display: flex;
     justify-content: center;
-    background-color: rgb(155, 173, 179);
-    padding-bottom: 30px;
+    background-color: rgb(246, 253, 255);
+    padding-bottom: 90px;
+    padding-top: 70px;
+    border-top: 1px solid #E02C6D;
 }
 .login-container h1{
     text-align: center;
@@ -68,7 +122,7 @@ nav a{
     border-radius:10px;
 }
 .login-form button {
-    background-color: rgb(248, 2, 117);
+    background-color: #E02C6D;
     color: white;
     font-weight: 600;
     border: 2px solid gray;
@@ -76,7 +130,7 @@ nav a{
 }
 footer{
     text-align: center;
-    background-color: rgba(2, 0, 22, 0.918);
+    background-color: #0A0826;
     color: white;
     padding: 2.5em;
     background-image: url(influencer-gear-main/);
@@ -90,9 +144,6 @@ footer {
 }
 #footer-text-color1{
     color: lightgray;
-}
-#footer-text-color2{
-    color: slategrey;
 }
 .fab{
     font-size: 12px;
